@@ -57,7 +57,7 @@ export default function Pricing() {
               ))}
             </ul>
             <a
-              href="#footer"
+              href="https://buy.stripe.com/dRm5kFdwBe7R4dqdsx4ZG00" target="_blank"
               className="mt-10 flex w-full items-center justify-center rounded-full bg-text py-3.5 text-sm font-medium text-surface transition-opacity hover:opacity-80"
             >
               Join Today
