@@ -5,39 +5,39 @@ import AnimatedSection from "./AnimatedSection";
 const benefits = [
   {
     number: "01",
-    title: "Design board",
+    title: "One senior expert, zero handoffs",
     description:
-      "Easily manage your work queue and see what is being worked on.",
+      "You work directly with the person doing the work — no account managers, no juniors, nothing lost in translation.",
   },
   {
     number: "02",
-    title: "Fixed monthly rate",
+    title: "One flat rate, no surprises",
     description:
-      "No surprise invoices! Pay the same fixed price each month.",
+      "The same fixed price every month, whether you make one request or twenty. No hourly billing, no change orders, no invoices to chase.",
   },
   {
     number: "03",
-    title: "Fast delivery",
+    title: "Delivered in about 48 hours",
     description:
-      "Get your requests delivered one at a time in just a couple days on average.",
+      "Most requests come back within two business days. Bigger projects ship in daily increments, so you're never left wondering.",
   },
   {
     number: "04",
-    title: "Top-notch quality",
+    title: "Unlimited requests & revisions",
     description:
-      "Senior-level design quality at your fingertips, whenever you need it.",
+      "Queue up as much work as you like, and every deliverable gets revised until you're 100% satisfied — at no extra cost.",
   },
   {
     number: "05",
-    title: "Flexible and scalable",
+    title: "Pause when things slow down",
     description:
-      "Scale up or down as needed, and pause or cancel at any point.",
+      "Unused days roll over when you pause, so you only pay for time you actually use. Cancel anytime with a click.",
   },
   {
     number: "06",
-    title: "Unique and all yours",
+    title: "You own everything",
     description:
-      "Every design is made especially for you and is 100% yours.",
+      "Every design and line of code is built from scratch for you and is 100% yours — source files included.",
   },
 ];
 
@@ -54,8 +54,9 @@ export default function Benefits() {
               It&apos;s &ldquo;you&apos;ll never go back&rdquo; better
             </h2>
             <p className="mx-auto mt-4 max-w-lg text-[15px] text-text-secondary">
-              Staying focused, moving quickly, and always aiming for high-quality
-              work.
+              A senior designer-engineer on tap costs less than a single
+              full-time hire &mdash; and there&apos;s no recruiting, onboarding,
+              or overhead.
             </p>
           </div>
         </AnimatedSection>

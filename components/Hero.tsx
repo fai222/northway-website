@@ -110,14 +110,30 @@ export default function Hero() {
         <div className="relative z-10 flex flex-1 flex-col items-center justify-center px-6 text-center">
           <AnimatedSection delay={0.2}>
             <h1 className="mx-auto max-w-4xl text-5xl font-medium leading-[0.95] tracking-[-3px] text-white sm:text-6xl md:text-7xl lg:text-[82px] lg:leading-[78px]">
-              Design & engineering for{" "}
-              <span className="font-pacifico font-normal">everyone</span>
+              Your design & engineering team,{" "}
+              <span className="font-pacifico font-normal">on demand</span>
             </h1>
           </AnimatedSection>
-          <AnimatedSection delay={0.6}>
-            <h3 className="mt-8 text-lg font-medium text-white md:text-xl">
+          <AnimatedSection delay={0.5}>
+            <h3 className="mt-8 max-w-xl text-lg font-medium text-white md:text-xl">
+              One flat monthly rate. Requests delivered in about 48 hours.
               Pause or cancel anytime.
             </h3>
+          </AnimatedSection>
+          <AnimatedSection delay={0.8}>
+            <a
+              href="#pricing"
+              className="mt-10 inline-flex items-center gap-2 rounded-full bg-white px-7 py-3 text-sm font-medium text-black transition-all hover:bg-[#0055ff] hover:text-white"
+            >
+              <span>See pricing</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 256 256"
+                className="h-4 w-4 fill-current"
+              >
+                <path d="M224.49,136.49l-72,72a12,12,0,0,1-17-17L187,140H40a12,12,0,0,1,0-24H187L135.51,64.48a12,12,0,0,1,17-17l72,72A12,12,0,0,1,224.49,136.49Z" />
+              </svg>
+            </a>
           </AnimatedSection>
         </div>
 

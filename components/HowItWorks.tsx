@@ -7,19 +7,19 @@ const steps = [
     number: "01",
     title: "Subscribe",
     description:
-      "It is as easy as swiping your card, and you will be good to go to make requests the following morning.",
+      "Pick your plan and check out in minutes. You'll get access to your own request board within hours — no contracts, no proposals, no kickoff meetings.",
   },
   {
     number: "02",
     title: "Request",
     description:
-      "You can ask for whatever your company needs. From product design to websites and logos.",
+      "Add as many requests as you like to your queue — product design, websites, landing pages, logos, or front-end code. Written brief, Google doc, or a quick Loom video all work.",
   },
   {
     number: "03",
     title: "Receive",
     description:
-      "Receive the requested work within two business days on average. Large projects get updates daily.",
+      "Get each request back within two business days on average, revised until you're 100% happy. Larger projects ship in daily increments so you always see progress.",
   },
 ];
 
@@ -29,9 +29,12 @@ export default function HowItWorks() {
       <div className="mx-auto max-w-7xl">
         <AnimatedSection>
           <h2 className="mx-auto max-w-2xl text-center text-3xl font-medium leading-tight tracking-[-1.5px] text-text md:text-4xl lg:text-[44px]">
-            The way design and engineering should have been done in the first
-            place
+            Skip the hiring, the scoping, and the surprise invoices
           </h2>
+          <p className="mx-auto mt-4 max-w-lg text-center text-[15px] text-text-secondary">
+            No interviews, no proposals, no hourly billing. Subscribe once and
+            start requesting work the same day.
+          </p>
         </AnimatedSection>
         <div className="mt-16 grid gap-4 md:grid-cols-3">
           {steps.map((step, i) => (

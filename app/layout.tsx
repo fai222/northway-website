@@ -21,9 +21,24 @@ const pacifico = Pacifico({
 });
 
 export const metadata: Metadata = {
-  title: "Northway - Design as a Subscription",
+  metadataBase: new URL("https://northway.agency"),
+  title: "Northway — Design & Engineering as a Subscription",
   description:
-    "The design subscription service for agencies, startups, corporations and entrepreneurs.",
+    "Senior-level design and front-end engineering for one flat monthly rate. Unlimited requests, ~48 hour delivery, unlimited revisions. Pause or cancel anytime.",
+  openGraph: {
+    title: "Northway — Design & Engineering as a Subscription",
+    description:
+      "Senior-level design and front-end engineering for one flat monthly rate. Unlimited requests, ~48 hour delivery, unlimited revisions. Pause or cancel anytime.",
+    url: "https://northway.agency",
+    siteName: "Northway",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Northway — Design & Engineering as a Subscription",
+    description:
+      "Senior-level design and front-end engineering for one flat monthly rate. Unlimited requests, ~48 hour delivery. Pause or cancel anytime.",
+  },
   icons: {
     icon: "https://framerusercontent.com/images/5wLA5w9yWuVQwoA2TUvWL7hbjE.png",
   },

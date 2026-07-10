@@ -38,8 +38,10 @@ export default function Footer() {
 
               <AnimatedSection delay={0.15}>
                 <p className="mt-8 max-w-md text-lg text-white/80">
-                  Schedule a quick 30 minute guided tour and see how Northway
-                  works.
+                  Book a free 30-minute call. We&apos;ll walk through how
+                  Northway works, look at your design and engineering needs,
+                  and you&apos;ll know by the end whether it&apos;s a fit. No
+                  pressure, no obligation.
                 </p>
               </AnimatedSection>
 
