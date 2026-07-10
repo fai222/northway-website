@@ -3,12 +3,12 @@
 import AnimatedSection from "./AnimatedSection";
 
 const features = [
-  "One request at a time",
-  "Avg. 48 hour delivery",
-  "Unlimited brands",
-  "Unlimited stock photos",
-  "Up to 2 users",
-  "Pause or cancel anytime",
+  "Unlimited design & development requests",
+  "One request at a time, avg. 48 hour delivery",
+  "Unlimited revisions until you're happy",
+  "Unlimited brands & stock photos",
+  "Up to 2 users on your board",
+  "Pause anytime — unused days roll over",
 ];
 
 export default function Pricing() {
@@ -17,8 +17,13 @@ export default function Pricing() {
       <div className="mx-auto max-w-7xl">
         <AnimatedSection>
           <h2 className="text-center text-3xl font-medium leading-tight tracking-[-1.5px] text-text md:text-4xl lg:text-[44px]">
-            One subscription, endless possibilities
+            One flat rate. No contracts, no hourly billing.
           </h2>
+          <p className="mx-auto mt-4 max-w-lg text-center text-[15px] text-text-secondary">
+            A senior designer-engineer costs $150,000+ a year to hire &mdash;
+            if you can find one. Get the same output for a fraction of the
+            cost, and only for the months you need it.
+          </p>
         </AnimatedSection>
         <AnimatedSection delay={0.2}>
           <div className="mx-auto mt-16 max-w-md rounded-3xl border border-border bg-surface p-10">
@@ -31,6 +36,9 @@ export default function Pricing() {
               </span>
               <span className="text-lg text-text-secondary">/month</span>
             </div>
+            <p className="mt-3 text-sm text-text-secondary">
+              Pause or cancel anytime. No minimum commitment.
+            </p>
             <ul className="mt-10 flex flex-col gap-4">
               {features.map((feature) => (
                 <li
@@ -60,8 +68,14 @@ export default function Pricing() {
               href="https://buy.stripe.com/dRm5kFdwBe7R4dqdsx4ZG00" target="_blank"
               className="mt-10 flex w-full items-center justify-center rounded-full bg-text py-3.5 text-sm font-medium text-surface transition-opacity hover:opacity-80"
             >
-              Get started
+              Start today
             </a>
+            <p className="mt-4 text-center text-sm text-text-secondary">
+              Not sure yet?{" "}
+              <a href="#footer" className="underline underline-offset-2 transition-colors hover:text-text">
+                Book a free 30-minute call
+              </a>
+            </p>
           </div>
         </AnimatedSection>
       </div>

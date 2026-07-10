@@ -6,68 +6,74 @@ import AnimatedSection from "./AnimatedSection";
 
 const faqs = [
   {
-    question: "How fast will I receive my designs?",
+    question: "Why wouldn't I just hire a full-time designer or developer?",
     answer:
-      "On average, most requests are completed in just two days or less. However, more complex requests can take longer.",
+      "A senior designer or engineer costs $150,000+ per year plus benefits — and you may not have enough work to keep them busy year-round. With Northway you get senior-level design and engineering only when you need it, and you can pause your subscription when you don't. No recruiting, no onboarding, no payroll.",
   },
   {
-    question: "How does onboarding work?",
+    question: "What kind of work can I request?",
     answer:
-      "Subscribe to a plan and we'll quickly add you to your very own Trello board. This process usually takes about an hour to complete from the time you subscribe. Once you accept the invite to Trello, you're ready to rock. Further instructions on how to use the Trello board to request designs can be found on the board itself.",
+      "Anything your company needs to look great and ship fast: product and UI/UX design, marketing websites, landing pages, logos and brand assets, pitch decks, social graphics — plus front-end engineering to bring designs to life in production-ready code.",
   },
   {
-    question: "Who are the designers?",
+    question: "How fast will I receive my work?",
     answer:
-      "Northway is a one-man agency, ran by Filip Iversen. Northway does not employ other designers or project managers. You'll work directly with me through the entirety of your experience.",
+      "Most requests are completed within two business days. Larger projects — like a full website or app design — are broken into milestones, and you'll see meaningful progress every 24-48 hours until it's done.",
   },
   {
     question: "Is there a limit to how many requests I can make?",
     answer:
-      "Once subscribed, you're able to add as many design requests to your queue as you'd like, and they will be delivered one by one.",
-  },
-  {
-    question: "How does the pause feature work?",
-    answer:
-      "Pausing your subscription comes in handy if you do not have enough design work to fill up an entire month. Billing cycles are based on 31-day periods. Let's say you sign up and use the service for 21 days, and then decide to pause your subscription. This means that the billing cycle will be paused and you'll have 10 days of service remaining to be used anytime in the future.",
-  },
-  {
-    question: "How do you handle larger requests?",
-    answer:
-      "Larger requests are broken down on Northway's end. This applies to full-scale website or mobile app designs, UI/UX work, etc. You should expect to receive a reasonable amount of progress every 24-48 hours until the entire request is completed.",
-  },
-  {
-    question: "What programs do you design in?",
-    answer: "Most requests are designed using Figma.",
-  },
-  {
-    question: "How will I request designs?",
-    answer:
-      "Northway offers a ton of flexibility in how you request designs using Trello. Some common ways clients request designs is directly via Trello, sharing Google docs or wireframes, or even recording a brief Loom video (for those who prefer not to write their briefs out). Basically, if it can be linked to or shared in Trello, it's fair game.",
+      "No. Add as many requests to your queue as you'd like — they're worked on one at a time and delivered one by one, so quality never slips.",
   },
   {
     question: "What if I don't like the design?",
     answer:
-      "No worries! We'll continue to revise the design until you're 100% satisfied.",
+      "We'll keep revising until you're 100% satisfied. Revisions are unlimited and included in your subscription — no extra fees, ever.",
+  },
+  {
+    question: "Who does the work?",
+    answer:
+      "Northway is run by one person: Filip Iversen. There are no account managers, project managers, or junior designers between you and the work. You get direct access to the person actually designing and building for you — which is exactly why the quality stays consistent.",
+  },
+  {
+    question: "How does onboarding work?",
+    answer:
+      "Subscribe and you'll be invited to your own Trello board — usually within an hour. Accept the invite and you can start submitting requests immediately. Instructions for making requests live right on the board.",
+  },
+  {
+    question: "How will I submit requests?",
+    answer:
+      "However works best for you. Write it directly in Trello, share a Google doc or wireframe, or record a quick Loom video if you'd rather talk than type. If it can be linked or shared in Trello, it works.",
+  },
+  {
+    question: "How does the pause feature work?",
+    answer:
+      "Billing cycles are 31 days. Say you use the service for 21 days and then pause — you keep the remaining 10 days to use anytime in the future. Nothing goes to waste, and you're never paying for idle time.",
+  },
+  {
+    question: "What if I only need a month, or a single project?",
+    answer:
+      "That's completely fine. Use Northway for a month, pause or cancel when the work is done, and come back whenever you need more. There's no minimum commitment and no penalty for leaving.",
+  },
+  {
+    question: "Who owns the work?",
+    answer:
+      "You do — 100%. Every design and every line of code is created from scratch for you, and you receive full ownership and source files.",
+  },
+  {
+    question: "What tools do you use?",
+    answer:
+      "Designs are created in Figma, so you can hand them to any developer or have them built here. Requests and communication run through Trello.",
   },
   {
     question: "Are there any requests you don't support?",
     answer:
-      "Absolutely. Northway does not cover the following design work: 3D modeling, animated graphics (GIFS, etc.), document design (medical forms, etc.), complex packaging, extensive print design (magazines, books, etc.).",
-  },
-  {
-    question: "What if I only have a single request?",
-    answer:
-      "That's fine. You can pause your subscription when finished and return when you have additional design needs. There's no need to let the remainder of your subscription go to waste.",
+      "A few. Northway doesn't cover 3D modeling, animated graphics (GIFs, etc.), document design (medical forms, etc.), complex packaging, or extensive print design (magazines, books, etc.). Not sure if your project fits? Book a call and ask.",
   },
   {
     question: "Are there any refunds?",
     answer:
-      "Due to the high quality nature of the work, there will be no refunds issued past the first week of service. However, no refunds will be issued for completed work.",
-  },
-  {
-    question: "Can I use Northway for just a month?",
-    answer:
-      "For sure. Whether you need Northway for a month or a year, the choice is yours. Just feel free to come back when you have additional design needs.",
+      "If you're not happy within your first week, reach out and we'll make it right. After the first week, refunds aren't issued for completed work — but with unlimited revisions and the ability to pause or cancel anytime, you're always in control of what you pay for.",
   },
 ];
 
@@ -126,6 +132,14 @@ export default function FAQ() {
           <h2 className="text-center text-3xl font-medium leading-tight tracking-[-1.5px] text-text md:text-4xl">
             Frequently asked questions
           </h2>
+          <p className="mx-auto mt-4 max-w-md text-center text-[15px] text-text-secondary">
+            Everything you need to know before getting started. Still have a
+            question?{" "}
+            <a href="#footer" className="underline underline-offset-2 transition-colors hover:text-text">
+              Book a quick call
+            </a>
+            .
+          </p>
         </AnimatedSection>
         <div className="mt-12 flex flex-col gap-2">
           {faqs.map((faq, i) => (
